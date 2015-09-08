@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'font-awesome-sass', '~> 4.4.0'
 gem 'pry', '~> 0.10.1'
+gem 'thin'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
