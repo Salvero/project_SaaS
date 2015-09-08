@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
-gem 'sqlite3', '~> 1.3.10', group: [:development, :test]
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -15,7 +14,9 @@ gem 'puma'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+  gem 'sqlite3', '~> 1.3.10'
   gem 'byebug'
+
 end
 
 group :production do
