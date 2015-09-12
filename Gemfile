@@ -11,8 +11,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'font-awesome-sass', '~> 4.4.0'
 gem 'pry', '~> 0.10.1'
 gem 'puma'
-gem 'figaro', '~> 1.1.1'
 gem 'devise', '~> 3.5.2'
+gem 'stripe', '~> 1.25.0'
+gem 'figaro', '~> 1.1.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
