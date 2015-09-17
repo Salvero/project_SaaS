@@ -14,6 +14,7 @@ gem 'puma'
 gem 'devise', '~> 3.5.2'
 gem 'stripe', '~> 1.25.0'
 gem 'figaro', '~> 1.1.1'
+gem 'paperclip', '~> 4.3.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
